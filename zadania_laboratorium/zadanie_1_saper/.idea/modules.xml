@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../laboratorium/.idea/laboratorium.iml" filepath="$PROJECT_DIR$/../../laboratorium/.idea/laboratorium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zadanie_1_saper.iml" filepath="$PROJECT_DIR$/.idea/zadanie_1_saper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../zadania_konwersatorium/zadanie_2_kulki/.idea/zadanie_2_kulki.iml" filepath="$PROJECT_DIR$/../../zadania_konwersatorium/zadanie_2_kulki/.idea/zadanie_2_kulki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zadanie_2_matura_2016/.idea/zadanie_2_matura_2016.iml" filepath="$PROJECT_DIR$/../zadanie_2_matura_2016/.idea/zadanie_2_matura_2016.iml" />
+    </modules>
+  </component>
+</project>

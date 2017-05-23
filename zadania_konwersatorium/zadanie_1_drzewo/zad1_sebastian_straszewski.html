@@ -1,0 +1,91 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module zad1_sebastian_straszewski</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>zad1_sebastian_straszewski</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/mnt/Dane/Studia/1.Studia/3 rok/2 semestr/Python/zadania_konwersatorium/zadanie_1_poprawione/zad1_sebastian_straszewski.py">/mnt/Dane/Studia/1.Studia/3 rok/2 semestr/Python/zadania_konwersatorium/zadanie_1_poprawione/zad1_sebastian_straszewski.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;-*-&nbsp;coding:&nbsp;utf-8&nbsp;-*-</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="math.html">math</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="zad1_sebastian_straszewski.html#Branch">Branch</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Branch">class <strong>Branch</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Klasa&nbsp;reprezentujaca&nbsp;galaz&nbsp;drzewa.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Branch-__init__"><strong>__init__</strong></a>(self, start_point, end_point, texture)</dt><dd><tt>Konstruktor&nbsp;klasy&nbsp;generujacej&nbsp;pien.<br>
+&nbsp;<br>
+Parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;start_point&nbsp;-&nbsp;poczatek&nbsp;z&nbsp;ktorego&nbsp;wychodzi&nbsp;galaz&nbsp;w&nbsp;postaci&nbsp;listy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;end_point&nbsp;&nbsp;&nbsp;-&nbsp;punkt&nbsp;koncowy&nbsp;galezi&nbsp;w&nbsp;postaci&nbsp;listy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;texture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;zmienna&nbsp;przechowujaca&nbsp;grubosc&nbsp;oraz&nbsp;color&nbsp;galezi</tt></dd></dl>
+
+<dl><dt><a name="Branch-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Funkcja&nbsp;odpowiedzialna&nbsp;za&nbsp;zamiane&nbsp;obiektu&nbsp;na&nbsp;string</tt></dd></dl>
+
+<dl><dt><a name="Branch-fork"><strong>fork</strong></a>(self, alpha, length, texture)</dt><dd><tt>Funkcja&nbsp;tworzy&nbsp;rozgalezienia&nbsp;dla&nbsp;danej&nbsp;galezi<br>
+&nbsp;<br>
+Parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;alpha&nbsp;&nbsp;&nbsp;-&nbsp;kat&nbsp;pod&nbsp;jakim&nbsp;maja&nbsp;byc&nbsp;rysowane&nbsp;nowe&nbsp;galezie<br>
+&nbsp;&nbsp;&nbsp;&nbsp;length&nbsp;&nbsp;-&nbsp;dlugosc&nbsp;galezi<br>
+&nbsp;&nbsp;&nbsp;&nbsp;texture&nbsp;-&nbsp;zmienna&nbsp;przechowujaca&nbsp;texture&nbsp;galezi&nbsp;[grubosc,&nbsp;kolor]<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;rozgalezienie&nbsp;w&nbsp;postaci&nbsp;listy&nbsp;galezi&nbsp;wychodzacych&nbsp;z&nbsp;tego&nbsp;samego&nbsp;punktu</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-tree_fractal"><strong>tree_fractal</strong></a>(branch_length, branch_alpha, tree_lvl)</dt><dd><tt>Funkcja&nbsp;tworzy&nbsp;plik&nbsp;z&nbsp;drzewem<br>
+&nbsp;<br>
+Parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;branch_length&nbsp;&nbsp;&nbsp;-&nbsp;dlugosc&nbsp;pnia&nbsp;od&nbsp;ktorej&nbsp;zalezy&nbsp;dlugosc&nbsp;pozostalych&nbsp;galezi<br>
+&nbsp;&nbsp;&nbsp;&nbsp;branch_length&nbsp;&nbsp;&nbsp;-&nbsp;kat&nbsp;wzgledem&nbsp;jakiego&nbsp;maja&nbsp;byc&nbsp;rysowane&nbsp;wszystkie&nbsp;galezie<br>
+&nbsp;&nbsp;&nbsp;&nbsp;tree_lvl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ilosc&nbsp;poziomow&nbsp;drzewa<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#-tree_fractal">tree_fractal</a>(350,&nbsp;-20,&nbsp;6)</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>division</strong> = _Feature((2, 2, 0, 'alpha', 2), (3, 0, 0, 'alpha', 0), 8192)<br>
+<strong>file_name</strong> = 'tree.svg'<br>
+<strong>max_height</strong> = 768<br>
+<strong>max_width</strong> = 1366<br>
+<strong>root_position</strong> = [683.0, 768]<br>
+<strong>s</strong> = 60<br>
+<strong>tree_texture</strong> = [8.88203017832647, [100, 180, 0]]</td></tr></table>
+</body></html>

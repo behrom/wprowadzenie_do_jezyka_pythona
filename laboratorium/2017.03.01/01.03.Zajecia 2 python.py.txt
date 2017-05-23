@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Zadanie 2
+#~ def silnia_it(n):
+	#~ return reduce(lambda x,y: x*y, range(1, n+1))
+	
+#~ print silnia_it(5)
+
+#~ def silnia_rek(n):
+	#~ if(n == 1):
+		#~ return 1
+	#~ return n*silnia_rek(n-1)
+
+#~ print silnia_rek(5)
+
+# Zadanie 3
+def FF(n):
+	if(n == 0):
+		return 2
+	return (n + 1) * FF(n - 1)
+
+def GG(n):
+			
+
+# Zadanie 4
+#~ def ksiegowosc(stan_konta, kwota):
+	#~ def wplata(stan_konta, kwota):
+		#~ print locals()
+		#~ return stan_konta + kwota
+	
+	#~ def wyplata(stan_konta, kwota):
+		#~ print locals()
+		#~ return stan_konta - kwota
+	
+	#~ print locals()
+	#~ return (wplata(stan_konta, kwota), wyplata(stan_konta, kwota))
+
+#~ print ksiegowosc(100, 20)
+
+# Zadanie 5
+#~ def factory(n):
+	#~ def do():
+		#~ print range(n)
+	
+	#~ return do
+
+#~ a = factory(5)
+
+#~ a()
+
+# Zadanie 6
+#~ def vars(n):
+	#~ for i in range(n):
+		#~ globals()['v' + str(i)] = i**2
+
+#~ vars(5)
+
+#~ print globals()

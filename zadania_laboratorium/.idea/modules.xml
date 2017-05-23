@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../laboratorium/.idea/laboratorium.iml" filepath="$PROJECT_DIR$/../laboratorium/.idea/laboratorium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zadania_laboratorium.iml" filepath="$PROJECT_DIR$/.idea/zadania_laboratorium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zadanie_3_matura_2016/.idea/zadanie_3_matura_2016.iml" filepath="$PROJECT_DIR$/zadanie_3_matura_2016/.idea/zadanie_3_matura_2016.iml" />
+    </modules>
+  </component>
+</project>
